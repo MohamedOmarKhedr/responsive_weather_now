@@ -1,0 +1,11 @@
+{
+  "weather_now": "Weather Now",
+  "arabic_language": "Arabic Language",
+  "dark_mode": "Dark Mode",
+  "updated_at": "updated at:",
+  "max_temp": "MaxTemp:",
+  "min_temp": "MinTemp:",
+  "no_weather_view": "There is no weather \uD83D\uDE1F start \n search now \uD83D\uDD0D",
+  "enter_city_name": "Enter City Name",
+  "search": "search"
+}

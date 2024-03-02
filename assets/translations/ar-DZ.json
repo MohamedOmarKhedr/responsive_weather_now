@@ -1,0 +1,13 @@
+{
+  "weather_now": "الطقس الآن",
+  "arabic_language": "اللغة العربية",
+  "dark_mode": "الوضع المظلم",
+  "updated_at": "تم تحديثه عند الساعة:",
+  "max_temp": "الدرجة العظمي:",
+  "min_temp": "الدرجة الصغري:",
+  "no_weather_view": "لا يوجد طقس \uD83D\uDE1F ابدأ \n ابحث الآن \uD83D\uDD0D",
+  "enter_city_name": "ادخل إسم المدينة",
+  "search": "بحث"
+
+
+}

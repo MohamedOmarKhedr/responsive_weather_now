@@ -1,0 +1,5 @@
+enum MyCacheKeys{
+  isArabicLanguage,
+  isDarkMode
+
+}
