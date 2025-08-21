@@ -1,4 +1,4 @@
-# weather_app
+# responsive_weather
 
 A new Flutter project.
 
