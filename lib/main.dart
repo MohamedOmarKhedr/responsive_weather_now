@@ -40,8 +40,6 @@ class WeatherApp extends StatelessWidget {
         supportedLocales: context.supportedLocales,
         locale: context.locale,
         // ----
-        theme: ThemeData.light(),
-        darkTheme: ThemeData.dark(),
         debugShowCheckedModeBanner: false,
         title: 'Weather App',
         home: const MyHomeScreen(),

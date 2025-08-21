@@ -1,6 +1,6 @@
 {
-    "name": "Weather Now",
-    "short_name": "Weather Now",
+    "name": "responsive_weather",
+    "short_name": "responsive_weather",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

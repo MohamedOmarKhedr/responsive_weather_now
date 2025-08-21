@@ -34,7 +34,7 @@ class DesktopSettingsDialog extends StatelessWidget {
                 ),
                 Column(
                   children: [
-                    SizedBox(height: MediaQuery.sizeOf(context).height*.1,),
+                    const SizedBox(height: 50,),
                     ElevatedButton(
                       onPressed: () {
                         Navigator.pop(context);

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weather_app/business_logic/app_cubit.dart';
-import 'package:weather_app/presentation/screens/weather_screen/weather_screen.dart';
 
 import '../widgets/custom_text_field.dart';
 
@@ -33,7 +32,7 @@ class _SearchScreenBodyState extends State<SearchScreenBody> {
       child: LayoutBuilder(builder: (context, constraints) {
         if (constraints.maxWidth > 800) {
           if (Navigator.canPop(context)) {
-            WidgetsBinding.instance!.addPostFrameCallback((_) {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
               Navigator.pop(context);
             });
           }
@@ -50,7 +49,8 @@ class _SearchScreenBodyState extends State<SearchScreenBody> {
                 iconOnPressed: () {
                   appCubit.getWeatherData(location: appCubit.location);
                 },
-                borderColor: appCubit.getThemeMode(lightMode: Colors.blue, darkMode: Colors.white),
+                borderColor: appCubit.getThemeMode(
+                    lightMode: Colors.blue, darkMode: Colors.white),
               ),
             ),
           );
